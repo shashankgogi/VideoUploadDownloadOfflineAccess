@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>HomeViewController Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/HomeViewController" class="dashAnchor"></a>
+    <a title="HomeViewController Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (62% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        HomeViewController Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/APIs.html">APIs</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CircularProgressView.html">CircularProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConnectionManager.html">ConnectionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CoreDataOperations.html">CoreDataOperations</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DownloadManager.html">DownloadManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Generals.html">Generals</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HomeClass.html">HomeClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HomeViewController.html">HomeViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoResultFoundController.html">NoResultFoundController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PreviewClass.html">PreviewClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PreviewController.html">PreviewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TableViewCellForVideoDetails.html">TableViewCellForVideoDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UIDownloadProgressButton.html">UIDownloadProgressButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VideoDetailsData.html">VideoDetailsData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VideoPickeController.html">VideoPickeController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VideoPickerClass.html">VideoPickerClass</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug21CATEGORY_REQUIRED_MSGSSvp">CATEGORY_REQUIRED_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug28DELETE_DOWNLOADING_VIDEO_MSGSSvp">DELETE_DOWNLOADING_VIDEO_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug18DELETE_VIDEO_TITLESSvp">DELETE_VIDEO_TITLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug26DONT_HAVE_OFFLINE_DATA_MSGSSvp">DONT_HAVE_OFFLINE_DATA_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug28DONT_HAVE_OFFLINE_DATA_TITLESSvp">DONT_HAVE_OFFLINE_DATA_TITLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug23DOWNLOADING_IN_PROGRESSSSvp">DOWNLOADING_IN_PROGRESS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug18DOWNLOAD_DIRECTORYSSvp">DOWNLOAD_DIRECTORY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug25DOWNLOAD_PAUSE_NOTIF_NAMESSvp">DOWNLOAD_PAUSE_NOTIF_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug10EXCEED_MSGSSvp">EXCEED_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug12EXCEED_TITLESSvp">EXCEED_TITLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug13FAILURE_TITLESSvp">FAILURE_TITLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug19GET_VIDEO_LIST_PATHSSvp">GET_VIDEO_LIST_PATH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug17NAME_REQUIRED_MSGSSvp">NAME_REQUIRED_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug18NOINTERNET_MESSAGESSvp">NOINTERNET_MESSAGE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug16NOINTERNET_TITLESSvp">NOINTERNET_TITLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug19PER_PAGE_TAKE_COUNTSivp">PER_PAGE_TAKE_COUNT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug23REACHABILITY_NOTIF_NAMESSvp">REACHABILITY_NOTIF_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug27REFRESH_HOMEVIEW_NOTIF_NAMESSvp">REFRESH_HOMEVIEW_NOTIF_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug24SOMETHING_WENT_WRONG_MSGSSvp">SOMETHING_WENT_WRONG_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug17UPLOAD_VIDEO_PATHSSvp">UPLOAD_VIDEO_PATH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug13WARNING_TITLESSvp">WARNING_TITLE</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/DownloadStatus.html">DownloadStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ViewProgressStatus.html">ViewProgressStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/AVURLAsset.html">AVURLAsset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSMutableData.html">NSMutableData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UISegmentedControl.html">UISegmentedControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/VideoPickerDelegates.html">VideoPickerDelegates</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/GetApiConfig.html">GetApiConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VideoDetails.html">VideoDetails</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>HomeViewController</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">HomeViewController</span> <span class="p">:</span> <span class="kt"><a href="../Classes/HomeClass.html">HomeClass</a></span></code></pre>
+
+                </div>
+              </div>
+            <p>Class for HomeViewController</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(py)segmentController"></a>
+                    <a name="//apple_ref/swift/Property/segmentController" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(py)segmentController">segmentController</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>UISegmentedControl outlet for segmentController</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">segmentController</span><span class="p">:</span> <span class="kt">UISegmentedControl</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(py)searchBar"></a>
+                    <a name="//apple_ref/swift/Property/searchBar" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(py)searchBar">searchBar</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>UISearchBar outlet for searchBar</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">searchBar</span><span class="p">:</span> <span class="kt">UISearchBar</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(py)btnForAddNewVideo"></a>
+                    <a name="//apple_ref/swift/Property/btnForAddNewVideo" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(py)btnForAddNewVideo">btnForAddNewVideo</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>UIButton outlet for btnForAddNewVideo</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">btnForAddNewVideo</span><span class="p">:</span> <span class="kt">UIButton</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(py)tableView"></a>
+                    <a name="//apple_ref/swift/Property/tableView" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(py)tableView">tableView</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>UITableView outlet for tableView</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(py)spinner"></a>
+                    <a name="//apple_ref/swift/Property/spinner" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(py)spinner">spinner</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>UIActivityIndicatorView outlet for spinner</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBOutlet</span>
+<span class="k">weak</span> <span class="k">var</span> <span class="nv">spinner</span><span class="p">:</span> <span class="kt">UIActivityIndicatorView</span><span class="o">!</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18HomeViewControllerC26isServerHasMoreDataToFetchSbvp"></a>
+                    <a name="//apple_ref/swift/Property/isServerHasMoreDataToFetch" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18HomeViewControllerC26isServerHasMoreDataToFetchSbvp">isServerHasMoreDataToFetch</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Bool flag of isServerHasMoreDataToFetch</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">isServerHasMoreDataToFetch</span><span class="p">:</span> <span class="kt">Bool</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18HomeViewControllerC19progressButtonArraySDySiAA018UIDownloadProgressG0CGvp"></a>
+                    <a name="//apple_ref/swift/Property/progressButtonArray" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18HomeViewControllerC19progressButtonArraySDySiAA018UIDownloadProgressG0CGvp">progressButtonArray</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>[Int:UIDownloadProgressButton] of progressButtonArray</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">progressButtonArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span> <span class="p">:</span> <span class="kt"><a href="../Classes/UIDownloadProgressButton.html">UIDownloadProgressButton</a></span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18HomeViewControllerC18progressLabelArraySDySiSo7UILabelCGvp"></a>
+                    <a name="//apple_ref/swift/Property/progressLabelArray" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18HomeViewControllerC18progressLabelArraySDySiSo7UILabelCGvp">progressLabelArray</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>[Int:UILabel] of progressLabelArray</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">var</span> <span class="nv">progressLabelArray</span><span class="p">:</span> <span class="p">[</span><span class="kt">Int</span> <span class="p">:</span> <span class="kt">UILabel</span><span class="p">]</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)viewDidLoad"></a>
+                    <a name="//apple_ref/swift/Method/viewDidLoad()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)viewDidLoad">viewDidLoad()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)fetchInitailData"></a>
+                    <a name="//apple_ref/swift/Method/fetchInitailData()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)fetchInitailData">fetchInitailData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>used to fetch fresh data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">fetchInitailData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18HomeViewControllerC20loadOfflineVideoDatayyF"></a>
+                    <a name="//apple_ref/swift/Method/loadOfflineVideoData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18HomeViewControllerC20loadOfflineVideoDatayyF">loadOfflineVideoData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>used to load offlone data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">loadOfflineVideoData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)combinedOfflineDataWithServerData"></a>
+                    <a name="//apple_ref/swift/Method/combinedOfflineDataWithServerData()" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)combinedOfflineDataWithServerData">combinedOfflineDataWithServerData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>used to combine server data with downloaded data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">combinedOfflineDataWithServerData</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)handleRefresh:"></a>
+                    <a name="//apple_ref/swift/Method/handleRefresh(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)handleRefresh:">handleRefresh(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>used to handle pull to refresh</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">handleRefresh</span><span class="p">(</span><span class="n">_</span> <span class="nv">refreshControl</span><span class="p">:</span> <span class="kt">UIRefreshControl</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)captureDownloadingNotificationWithNotification:"></a>
+                    <a name="//apple_ref/swift/Method/captureDownloadingNotification(notification:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)captureDownloadingNotificationWithNotification:">captureDownloadingNotification(notification:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>used to capture download notification</p>
+
+<ul>
+<li>notification : Notification</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">captureDownloadingNotification</span><span class="p">(</span><span class="nv">notification</span><span class="p">:</span> <span class="kt">Notification</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18HomeViewControllerC13fetchVideoAPI4skipySi_tF"></a>
+                    <a name="//apple_ref/swift/Method/fetchVideoAPI(skip:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18HomeViewControllerC13fetchVideoAPI4skipySi_tF">fetchVideoAPI(skip:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to fet video details from server</p>
+
+<ul>
+<li>skip: skip count</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">fetchVideoAPI</span><span class="p">(</span><span class="nv">skip</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)segmentChanged:"></a>
+                    <a name="//apple_ref/swift/Method/segmentChanged(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)segmentChanged:">segmentChanged(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
+<span class="kd">func</span> <span class="nf">segmentChanged</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UISegmentedControl</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)addNewVideoPressed:"></a>
+                    <a name="//apple_ref/swift/Method/addNewVideoPressed(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)addNewVideoPressed:">addNewVideoPressed(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@IBAction</span>
+<span class="kd">func</span> <span class="nf">addNewVideoPressed</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">UIButton</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)downloadPressed:"></a>
+                    <a name="//apple_ref/swift/Method/downloadPressed(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)downloadPressed:">downloadPressed(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">@objc</span>
+<span class="kd">func</span> <span class="nf">downloadPressed</span><span class="p">(</span><span class="n">_</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt"><a href="../Classes/UIDownloadProgressButton.html">UIDownloadProgressButton</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18HomeViewControllerC23presentDeleteVideoAlert12videoDetails5index9isOfflineyAA0hK0V_SiSbtF"></a>
+                    <a name="//apple_ref/swift/Method/presentDeleteVideoAlert(videoDetails:index:isOffline:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18HomeViewControllerC23presentDeleteVideoAlert12videoDetails5index9isOfflineyAA0hK0V_SiSbtF">presentDeleteVideoAlert(videoDetails:index:isOffline:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to present delete confirm alert</p>
+
+<ul>
+<li>videoDetails: videoDetails</li>
+<li>index: index</li>
+<li>isOffline: isOffline flag</li>
+</ul>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">presentDeleteVideoAlert</span><span class="p">(</span><span class="nv">videoDetails</span><span class="p">:</span> <span class="kt"><a href="../Structs/VideoDetails.html">VideoDetails</a></span><span class="p">,</span> <span class="nv">index</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">isOffline</span><span class="p">:</span> <span class="kt">Bool</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)prepareForSegue:sender:"></a>
+                    <a name="//apple_ref/swift/Method/prepare(for:sender:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@M@iOSVideoPlug@objc(cs)HomeViewController(im)prepareForSegue:sender:">prepare(for:sender:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">prepare</span><span class="p">(</span><span class="k">for</span> <span class="nv">segue</span><span class="p">:</span> <span class="kt">UIStoryboardSegue</span><span class="p">,</span> <span class="nv">sender</span><span class="p">:</span> <span class="kt">Any</span><span class="p">?)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UITableViewDataSource"></a>
+                <a name="//apple_ref/swift/Section/UITableViewDataSource" class="dashAnchor"></a>
+                <a href="#/UITableViewDataSource">
+                  <h3 class="section-name">UITableViewDataSource</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@iOSVideoPlug@objc(cs)HomeViewController(im)tableView:numberOfRowsInSection:"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:numberOfRowsInSection:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@iOSVideoPlug@objc(cs)HomeViewController(im)tableView:numberOfRowsInSection:">tableView(_:numberOfRowsInSection:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">numberOfRowsInSection</span> <span class="nv">section</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">Int</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@iOSVideoPlug@objc(cs)HomeViewController(im)tableView:cellForRowAtIndexPath:"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:cellForRowAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@iOSVideoPlug@objc(cs)HomeViewController(im)tableView:cellForRowAtIndexPath:">tableView(_:cellForRowAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">cellForRowAt</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">UITableViewCell</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/UITableViewDelegate"></a>
+                <a name="//apple_ref/swift/Section/UITableViewDelegate" class="dashAnchor"></a>
+                <a href="#/UITableViewDelegate">
+                  <h3 class="section-name">UITableViewDelegate</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/c:@CM@iOSVideoPlug@objc(cs)HomeViewController(im)tableView:didSelectRowAtIndexPath:"></a>
+                    <a name="//apple_ref/swift/Method/tableView(_:didSelectRowAt:)" class="dashAnchor"></a>
+                    <a class="token" href="#/c:@CM@iOSVideoPlug@objc(cs)HomeViewController(im)tableView:didSelectRowAtIndexPath:">tableView(_:didSelectRowAt:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Undocumented</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">func</span> <span class="nf">tableView</span><span class="p">(</span><span class="n">_</span> <span class="nv">tableView</span><span class="p">:</span> <span class="kt">UITableView</span><span class="p">,</span> <span class="n">didSelectRowAt</span> <span class="nv">indexPath</span><span class="p">:</span> <span class="kt">IndexPath</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-05-02)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

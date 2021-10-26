@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CoreDataOperations Class Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Class/CoreDataOperations" class="dashAnchor"></a>
+    <a title="CoreDataOperations Class Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (62% documented)</p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        CoreDataOperations Class Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Classes.html">Classes</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Classes/APIs.html">APIs</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/AppDelegate.html">AppDelegate</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CircularProgressView.html">CircularProgressView</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/ConnectionManager.html">ConnectionManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/CoreDataOperations.html">CoreDataOperations</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/DownloadManager.html">DownloadManager</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/Generals.html">Generals</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HomeClass.html">HomeClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/HomeViewController.html">HomeViewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/NoResultFoundController.html">NoResultFoundController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PreviewClass.html">PreviewClass</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/PreviewController.html">PreviewController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/TableViewCellForVideoDetails.html">TableViewCellForVideoDetails</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/UIDownloadProgressButton.html">UIDownloadProgressButton</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VideoDetailsData.html">VideoDetailsData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VideoPickeController.html">VideoPickeController</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Classes/VideoPickerClass.html">VideoPickerClass</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Global Variables.html">Global Variables</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug21CATEGORY_REQUIRED_MSGSSvp">CATEGORY_REQUIRED_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug28DELETE_DOWNLOADING_VIDEO_MSGSSvp">DELETE_DOWNLOADING_VIDEO_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug18DELETE_VIDEO_TITLESSvp">DELETE_VIDEO_TITLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug26DONT_HAVE_OFFLINE_DATA_MSGSSvp">DONT_HAVE_OFFLINE_DATA_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug28DONT_HAVE_OFFLINE_DATA_TITLESSvp">DONT_HAVE_OFFLINE_DATA_TITLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug23DOWNLOADING_IN_PROGRESSSSvp">DOWNLOADING_IN_PROGRESS</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug18DOWNLOAD_DIRECTORYSSvp">DOWNLOAD_DIRECTORY</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug25DOWNLOAD_PAUSE_NOTIF_NAMESSvp">DOWNLOAD_PAUSE_NOTIF_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug10EXCEED_MSGSSvp">EXCEED_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug12EXCEED_TITLESSvp">EXCEED_TITLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug13FAILURE_TITLESSvp">FAILURE_TITLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug19GET_VIDEO_LIST_PATHSSvp">GET_VIDEO_LIST_PATH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug17NAME_REQUIRED_MSGSSvp">NAME_REQUIRED_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug18NOINTERNET_MESSAGESSvp">NOINTERNET_MESSAGE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug16NOINTERNET_TITLESSvp">NOINTERNET_TITLE</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug19PER_PAGE_TAKE_COUNTSivp">PER_PAGE_TAKE_COUNT</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug23REACHABILITY_NOTIF_NAMESSvp">REACHABILITY_NOTIF_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug27REFRESH_HOMEVIEW_NOTIF_NAMESSvp">REFRESH_HOMEVIEW_NOTIF_NAME</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug24SOMETHING_WENT_WRONG_MSGSSvp">SOMETHING_WENT_WRONG_MSG</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug17UPLOAD_VIDEO_PATHSSvp">UPLOAD_VIDEO_PATH</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Global Variables.html#/s:12iOSVideoPlug13WARNING_TITLESSvp">WARNING_TITLE</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Enums.html">Enumerations</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Enums/DownloadStatus.html">DownloadStatus</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Enums/ViewProgressStatus.html">ViewProgressStatus</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions/AVURLAsset.html">AVURLAsset</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/NSMutableData.html">NSMutableData</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIImage.html">UIImage</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UISegmentedControl.html">UISegmentedControl</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIViewController.html">UIViewController</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols/VideoPickerDelegates.html">VideoPickerDelegates</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Structs.html">Structures</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Structs/GetApiConfig.html">GetApiConfig</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Structs/VideoDetails.html">VideoDetails</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>CoreDataOperations</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight swift"><code><span class="kd">class</span> <span class="kt">CoreDataOperations</span> <span class="p">:</span> <span class="kt">NSObject</span></code></pre>
+
+                </div>
+              </div>
+            <p>Undocumented</p>
+
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18CoreDataOperationsC18saveDownloadStatus10videoModelyAA12VideoDetailsV_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/saveDownloadStatus(videoModel:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18CoreDataOperationsC18saveDownloadStatus10videoModelyAA12VideoDetailsV_tFZ">saveDownloadStatus(videoModel:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to save downloading status into DownloadingStatus table</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">saveDownloadStatus</span><span class="p">(</span><span class="nv">videoModel</span><span class="p">:</span> <span class="kt"><a href="../Structs/VideoDetails.html">VideoDetails</a></span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>videoModel</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>VideoDetails</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18CoreDataOperationsC016deleteDownloadedD07videoIdySi_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/deleteDownloadedData(videoId:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18CoreDataOperationsC016deleteDownloadedD07videoIdySi_tFZ">deleteDownloadedData(videoId:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to delete downloading data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">deleteDownloadedData</span><span class="p">(</span><span class="nv">videoId</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>videoId</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>videoId</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18CoreDataOperationsC20updateDownloadStatus2id8progress6statusySi_SdSStFZ"></a>
+                    <a name="//apple_ref/swift/Method/updateDownloadStatus(id:progress:status:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18CoreDataOperationsC20updateDownloadStatus2id8progress6statusySi_SdSStFZ">updateDownloadStatus(id:progress:status:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to update downloading status</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">updateDownloadStatus</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt">Int</span><span class="p">,</span> <span class="nv">progress</span><span class="p">:</span> <span class="kt">Double</span><span class="p">,</span> <span class="nv">status</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>id</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>progress</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>progress</p>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>status</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>status</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18CoreDataOperationsC19pauseAllDownloadingyyFZ"></a>
+                    <a name="//apple_ref/swift/Method/pauseAllDownloading()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18CoreDataOperationsC19pauseAllDownloadingyyFZ">pauseAllDownloading()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Used to pause all downloading</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">pauseAllDownloading</span><span class="p">()</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18CoreDataOperationsC017fetchOfflineVideoD02idAA0H7DetailsVSgSi_tFZ"></a>
+                    <a name="//apple_ref/swift/Method/fetchOfflineVideoData(id:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18CoreDataOperationsC017fetchOfflineVideoD02idAA0H7DetailsVSgSi_tFZ">fetchOfflineVideoData(id:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>used to get offline downloaded data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">fetchOfflineVideoData</span><span class="p">(</span><span class="nv">id</span><span class="p">:</span> <span class="kt">Int</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt"><a href="../Structs/VideoDetails.html">VideoDetails</a></span><span class="p">?</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Parameters</h4>
+                        <table class="graybox">
+                          <tbody>
+                            <tr>
+                              <td>
+                                <code>
+                                <em>id</em>
+                                </code>
+                              </td>
+                              <td>
+                                <div>
+                                  <p>id</p>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>VideoDetails</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18CoreDataOperationsC012fetchOfflineD0So7NSArrayCyFZ"></a>
+                    <a name="//apple_ref/swift/Method/fetchOfflineData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18CoreDataOperationsC012fetchOfflineD0So7NSArrayCyFZ">fetchOfflineData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>used to get offline downloaded data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">fetchOfflineData</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSArray</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>VideoDetails Array</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:12iOSVideoPlug18CoreDataOperationsC027fetchOfflineDownloadedVideoD0So7NSArrayCyFZ"></a>
+                    <a name="//apple_ref/swift/Method/fetchOfflineDownloadedVideoData()" class="dashAnchor"></a>
+                    <a class="token" href="#/s:12iOSVideoPlug18CoreDataOperationsC027fetchOfflineDownloadedVideoD0So7NSArrayCyFZ">fetchOfflineDownloadedVideoData()</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>used to get offline downloaded data</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight swift"><code><span class="kd">class</span> <span class="kd">func</span> <span class="nf">fetchOfflineDownloadedVideoData</span><span class="p">()</span> <span class="o">-&gt;</span> <span class="kt">NSArray</span></code></pre>
+
+                        </div>
+                      </div>
+                      <div>
+                        <h4>Return Value</h4>
+                        <p>VideoDetails Array</p>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2019 <a class="link" href="" target="_blank" rel="external"></a>. All rights reserved. (Last updated: 2019-05-02)</p>
+          <p>Generated by <a class="link" href="https://github.com/realm/jazzy" target="_blank" rel="external">jazzy ♪♫ v0.9.6</a>, a <a class="link" href="https://realm.io" target="_blank" rel="external">Realm</a> project.</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>

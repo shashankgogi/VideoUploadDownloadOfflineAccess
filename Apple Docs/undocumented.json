@@ -1,0 +1,579 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataClass.swift",
+      "line": null,
+      "symbol": "VideoDetailsData",
+      "symbol_kind": "source.lang.swift.decl.extension",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataClass.swift",
+      "line": 14,
+      "symbol": "VideoDetailsData",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataProperties.swift",
+      "line": 16,
+      "symbol": "VideoDetailsData.fetchRequest()",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataProperties.swift",
+      "line": 20,
+      "symbol": "VideoDetailsData.id",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataProperties.swift",
+      "line": 21,
+      "symbol": "VideoDetailsData.progress",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataProperties.swift",
+      "line": 22,
+      "symbol": "VideoDetailsData.size",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataProperties.swift",
+      "line": 23,
+      "symbol": "VideoDetailsData.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataProperties.swift",
+      "line": 24,
+      "symbol": "VideoDetailsData.thumbnailUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataProperties.swift",
+      "line": 25,
+      "symbol": "VideoDetailsData.timestamp",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataProperties.swift",
+      "line": 26,
+      "symbol": "VideoDetailsData.title",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/build/iOSVideoPlug.build/Release-iphoneos/iOSVideoPlug.build/DerivedSources/CoreDataGenerated/OfflineModel/VideoDetailsData+CoreDataProperties.swift",
+      "line": 27,
+      "symbol": "VideoDetailsData.videoUrl",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 16,
+      "symbol": "AppDelegate",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 18,
+      "symbol": "AppDelegate.window",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 20,
+      "symbol": "AppDelegate.application(_:didFinishLaunchingWithOptions:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 32,
+      "symbol": "AppDelegate.turnOnSoundModeWhenInSilenceMode()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 40,
+      "symbol": "AppDelegate.applicationWillResignActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 44,
+      "symbol": "AppDelegate.applicationDidEnterBackground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 48,
+      "symbol": "AppDelegate.applicationWillEnterForeground(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 52,
+      "symbol": "AppDelegate.applicationDidBecomeActive(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 56,
+      "symbol": "AppDelegate.applicationWillTerminate(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 63,
+      "symbol": "AppDelegate.persistentContainer",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/AppDelegate.swift",
+      "line": 74,
+      "symbol": "AppDelegate.saveContext()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/BaseClasses/HomeClass.swift",
+      "line": 193,
+      "symbol": "HomeClass.searchBar(_:textDidChange:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/BaseClasses/HomeClass.swift",
+      "line": 198,
+      "symbol": "HomeClass.searchBarSearchButtonClicked(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/BaseClasses/HomeClass.swift",
+      "line": 202,
+      "symbol": "HomeClass.searchBarCancelButtonClicked(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/BaseClasses/PreviewClass.swift",
+      "line": 168,
+      "symbol": "PreviewClass.textView(_:shouldChangeTextIn:replacementText:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/BaseClasses/VideoPickerClass.swift",
+      "line": 73,
+      "symbol": "VideoPickerClass.imagePickerController(_:didFinishPickingMediaWithInfo:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/BaseClasses/VideoPickerClass.swift",
+      "line": 85,
+      "symbol": "VideoPickerDelegates.isVideoSuccessfullyPickedUP(url:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/HomeViewController.swift",
+      "line": 53,
+      "symbol": "HomeViewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/HomeViewController.swift",
+      "line": 188,
+      "symbol": "HomeViewController.segmentChanged(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/HomeViewController.swift",
+      "line": 192,
+      "symbol": "HomeViewController.addNewVideoPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/HomeViewController.swift",
+      "line": 196,
+      "symbol": "HomeViewController.downloadPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/HomeViewController.swift",
+      "line": 248,
+      "symbol": "HomeViewController.prepare(for:sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/HomeViewController.swift",
+      "line": 258,
+      "symbol": "HomeViewController.tableView(_:numberOfRowsInSection:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/HomeViewController.swift",
+      "line": 265,
+      "symbol": "HomeViewController.tableView(_:cellForRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/HomeViewController.swift",
+      "line": 287,
+      "symbol": "HomeViewController.tableView(_:didSelectRowAt:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/NoResultFoundController.swift",
+      "line": 16,
+      "symbol": "NoResultFoundController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/PreviewController.swift",
+      "line": 34,
+      "symbol": "PreviewController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/PreviewController.swift",
+      "line": 41,
+      "symbol": "PreviewController.uploadPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/PreviewController.swift",
+      "line": 45,
+      "symbol": "PreviewController.cancelPressed(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/VideoPickeController.swift",
+      "line": 18,
+      "symbol": "VideoPickeController.viewDidLoad()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/VideoPickeController.swift",
+      "line": 27,
+      "symbol": "VideoPickeController.pickVideoFromGallery(_sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/VideoPickeController.swift",
+      "line": 31,
+      "symbol": "VideoPickeController.shootNewVideoUsingCamera(_sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/VideoPickeController.swift",
+      "line": 36,
+      "symbol": "VideoPickeController.prepare(for:sender:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Controller/VideoPickeController.swift",
+      "line": 48,
+      "symbol": "VideoPickeController.isVideoSuccessfullyPickedUP(url:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Core Data/CoreDataOperations.swift",
+      "line": 12,
+      "symbol": "CoreDataOperations",
+      "symbol_kind": "source.lang.swift.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/APIs.swift",
+      "line": 168,
+      "symbol": "NSMutableData.appendString(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/APIs.swift",
+      "line": 176,
+      "symbol": "GetApiConfig.URL_INDEX",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/APIs.swift",
+      "line": 177,
+      "symbol": "GetApiConfig.URL_IDENTIFIER",
+      "symbol_kind": "source.lang.swift.decl.var.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/APIs.swift",
+      "line": 178,
+      "symbol": "GetApiConfig.execute()",
+      "symbol_kind": "source.lang.swift.decl.function.method.static",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Extensions.swift",
+      "line": 15,
+      "symbol": "UIViewController.hideKeyboardWhenTappedAround()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Extensions.swift",
+      "line": 22,
+      "symbol": "UIViewController.dismissKeyboard(_:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Extensions.swift",
+      "line": 33,
+      "symbol": "AVURLAsset.fileSize",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Extensions.swift",
+      "line": 42,
+      "symbol": "UIImage.combineWith(image:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 12,
+      "symbol": "EXCEED_TITLE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 13,
+      "symbol": "EXCEED_MSG",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 15,
+      "symbol": "WARNING_TITLE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 16,
+      "symbol": "CATEGORY_REQUIRED_MSG",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 17,
+      "symbol": "NAME_REQUIRED_MSG",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 18,
+      "symbol": "SOMETHING_WENT_WRONG_MSG",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 20,
+      "symbol": "FAILURE_TITLE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 21,
+      "symbol": "NOINTERNET_TITLE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 22,
+      "symbol": "NOINTERNET_MESSAGE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 24,
+      "symbol": "DOWNLOADING_IN_PROGRESS",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 26,
+      "symbol": "DELETE_VIDEO_TITLE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 27,
+      "symbol": "DELETE_DOWNLOADING_VIDEO_MSG",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 29,
+      "symbol": "DONT_HAVE_OFFLINE_DATA_TITLE",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 30,
+      "symbol": "DONT_HAVE_OFFLINE_DATA_MSG",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 33,
+      "symbol": "PER_PAGE_TAKE_COUNT",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 36,
+      "symbol": "UPLOAD_VIDEO_PATH",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 37,
+      "symbol": "GET_VIDEO_LIST_PATH",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 40,
+      "symbol": "REACHABILITY_NOTIF_NAME",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 41,
+      "symbol": "DOWNLOAD_PAUSE_NOTIF_NAME",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 42,
+      "symbol": "REFRESH_HOMEVIEW_NOTIF_NAME",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/Utilities/Utility.swift",
+      "line": 45,
+      "symbol": "DOWNLOAD_DIRECTORY",
+      "symbol_kind": "source.lang.swift.decl.var.global",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/View/CircularProgressView.swift",
+      "line": 107,
+      "symbol": "CircularProgressView.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/View/TableViewCellForVideoDetails.swift",
+      "line": 38,
+      "symbol": "TableViewCellForVideoDetails.prepareForReuse()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/View/UIDownloadProgressButton.swift",
+      "line": 96,
+      "symbol": "UIDownloadProgressButton.status",
+      "symbol_kind": "source.lang.swift.decl.var.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/View/UISegmentClass.swift",
+      "line": 14,
+      "symbol": "UISegmentedControl.removeBorder()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/View/UISegmentClass.swift",
+      "line": 26,
+      "symbol": "UISegmentedControl.addUnderlineForSelectedSegment()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/View/UISegmentClass.swift",
+      "line": 39,
+      "symbol": "UISegmentedControl.changeUnderlinePosition()",
+      "symbol_kind": "source.lang.swift.decl.function.method.instance",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug/iOSVideoPlug/View/UISegmentClass.swift",
+      "line": 52,
+      "symbol": "UIImage.getColoredRectImageWith(color:andSize:)",
+      "symbol_kind": "source.lang.swift.decl.function.method.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/mrv/Documents/Rahul Panzade/Plugable/Sprint 21/iOSVideoPlug"
+}

@@ -1,0 +1,6 @@
+framework module Pods_iOSVideoPlug {
+  umbrella header "Pods-iOSVideoPlug-umbrella.h"
+
+  export *
+  module * { export * }
+}
